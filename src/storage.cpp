@@ -1,6 +1,7 @@
 #include "storage.h"
 #include <fstream>
 #include <sstream>
+#include "model.h"
 
 void Storage::save(const std::string& filename, const Model& model) {
     std::ofstream file(filename);

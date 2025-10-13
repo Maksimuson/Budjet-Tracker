@@ -1,8 +1,12 @@
-#include <gtk/gtk.h>       
-#include <string>          
-#include <sstream>
-#include <iostream>
 #include "app_window.h"
+#include "model.h"
+#include "storage.h"
+#include <gtk/gtk.h>
+#include <iostream>
+#include <string>
+
+
+
 
 
 AppWindow::AppWindow() {

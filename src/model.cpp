@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 
+
 void Model::addOperation(const Operation& op) {
     operations.push_back(op);
 }

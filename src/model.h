@@ -1,11 +1,8 @@
 #pragma once
+#define MODEL_H
 #include <string>
 #include <vector>
 #include <iostream>
-
-
-#pragma once
-#include <string>
 
 struct Operation {
     std::string date;

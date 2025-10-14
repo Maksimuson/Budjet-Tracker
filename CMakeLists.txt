@@ -5,12 +5,13 @@ project(BudgetTracker)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(PKG_CONFIG_EXECUTABLE "C:/msys64/mingw64/bin/pkg-config.exe")
+# Знайти pkg-config
 find_package(PkgConfig REQUIRED)
+
+# Підключити GTK3 через pkg-config
 pkg_check_modules(GTK3 REQUIRED gtk+-3.0)
-find_package(PkgConfig REQUIRED)
 
-
+# Виконувані файли
 add_executable(BudgetTracker
     src/app_window.h
     src/model.h
@@ -21,6 +22,7 @@ add_executable(BudgetTracker
     src/storage.cpp
 )
 
+# Підключення директорій і бібліотек GTK
 target_include_directories(BudgetTracker PRIVATE ${GTK3_INCLUDE_DIRS} ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_directories(BudgetTracker PRIVATE ${GTK3_LIBRARY_DIRS})
 target_compile_options(BudgetTracker PRIVATE ${GTK3_CFLAGS_OTHER})

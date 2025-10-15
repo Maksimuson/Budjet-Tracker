@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\cpp\Budjet tracker new build\Budjet-Tracker\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp\Budjet tracker new build\Budjet-Tracker\src\app_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\cpp\Budjet tracker new build\Budjet-Tracker\src\storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\cpp\Budjet tracker new build\Budjet-Tracker\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0315A5C-F37E-3BFD-B5AC-C9E2526C7DD5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

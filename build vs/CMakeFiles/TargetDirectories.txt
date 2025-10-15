@@ -1,0 +1,3 @@
+C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/BudgetTracker.dir
+C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/ALL_BUILD.dir
+C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/ZERO_CHECK.dir

@@ -1,8 +1,4 @@
 build
-.vs/
-*.suo
-*.user
-*.vcxproj.user
-*.db
-*.ipch
-
+build vs
+out
+CMakePresets.json

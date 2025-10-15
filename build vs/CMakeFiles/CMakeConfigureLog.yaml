@@ -1,0 +1,3570 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 17.2.1+52cd2da31 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.10.2025 11:03:47.
+      Проект "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.82
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/4.1.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link"
+      - "C:/Users/shagm/bin/lld-link.com"
+      - "C:/Users/shagm/bin/lld-link.exe"
+      - "C:/Users/shagm/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/shagm/.dotnet/tools/lld-link.com"
+      - "C:/Users/shagm/.dotnet/tools/lld-link.exe"
+      - "C:/Users/shagm/.dotnet/tools/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/mt"
+      - "C:/Users/shagm/bin/mt.com"
+      - "C:/Users/shagm/bin/mt.exe"
+      - "C:/Users/shagm/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/cursor/resources/app/bin/mt.com"
+      - "C:/Program Files/cursor/resources/app/bin/mt.exe"
+      - "C:/Program Files/cursor/resources/app/bin/mt"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/mt.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/mt.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/mt"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/mt.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/mt.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/mt"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/shagm/AppData/Local/atom/bin/mt.com"
+      - "C:/Users/shagm/AppData/Local/atom/bin/mt.exe"
+      - "C:/Users/shagm/AppData/Local/atom/bin/mt"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/shagm/.dotnet/tools/mt.com"
+      - "C:/Users/shagm/.dotnet/tools/mt.exe"
+      - "C:/Users/shagm/.dotnet/tools/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 17.2.1+52cd2da31 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.10.2025 11:03:49.
+      Проект "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.89
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/4.1.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/"
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/lld-link"
+      - "C:/Users/shagm/bin/lld-link.com"
+      - "C:/Users/shagm/bin/lld-link.exe"
+      - "C:/Users/shagm/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/lld-link"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/atom/bin/lld-link"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/shagm/.dotnet/tools/lld-link.com"
+      - "C:/Users/shagm/.dotnet/tools/lld-link.exe"
+      - "C:/Users/shagm/.dotnet/tools/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/shagm/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/shagm/AppData/Local/atom/bin/"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/shagm/.dotnet/tools/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/BudgetTracker/bin/"
+      - "C:/Program Files/BudgetTracker/sbin/"
+      - "C:/Program Files/BudgetTracker/"
+    searched_directories:
+      - "C:/Users/shagm/bin/rc.com"
+      - "C:/Users/shagm/bin/rc.exe"
+      - "C:/Users/shagm/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/cursor/resources/app/bin/rc.com"
+      - "C:/Program Files/cursor/resources/app/bin/rc.exe"
+      - "C:/Program Files/cursor/resources/app/bin/rc"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/rc.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/rc.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/Scripts/rc"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/rc.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/rc.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Python/Python310/rc"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/shagm/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/shagm/AppData/Local/atom/bin/rc.com"
+      - "C:/Users/shagm/AppData/Local/atom/bin/rc.exe"
+      - "C:/Users/shagm/AppData/Local/atom/bin/rc"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/shagm/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/shagm/.dotnet/tools/rc.com"
+      - "C:/Users/shagm/.dotnet/tools/rc.exe"
+      - "C:/Users/shagm/.dotnet/tools/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/BudgetTracker/bin/rc.com"
+      - "C:/Program Files/BudgetTracker/bin/rc.exe"
+      - "C:/Program Files/BudgetTracker/bin/rc"
+      - "C:/Program Files/BudgetTracker/sbin/rc.com"
+      - "C:/Program Files/BudgetTracker/sbin/rc.exe"
+      - "C:/Program Files/BudgetTracker/sbin/rc"
+      - "C:/Program Files/BudgetTracker/rc.com"
+      - "C:/Program Files/BudgetTracker/rc.exe"
+      - "C:/Program Files/BudgetTracker/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-w45pki"
+      binary: "C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-w45pki"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-w45pki'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2b77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine версии 17.2.1+52cd2da31 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.10.2025 11:03:52.
+        Проект "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-w45pki\\cmTC_a2b77.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a2b77.dir\\Debug\\".
+          Создание каталога "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-w45pki\\Debug\\".
+          Создание каталога "cmTC_a2b77.dir\\Debug\\cmTC_a2b77.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a2b77.dir\\Debug\\cmTC_a2b77.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a2b77.dir\\Debug\\\\" /Fd"cmTC_a2b77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.32.31329 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a2b77.dir\\Debug\\\\" /Fd"cmTC_a2b77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-w45pki\\Debug\\cmTC_a2b77.exe" /INCREMENTAL /ILK:"cmTC_a2b77.dir\\Debug\\cmTC_a2b77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-w45pki/Debug/cmTC_a2b77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-w45pki/Debug/cmTC_a2b77.lib" /MACHINE:X64  /machine:x64 cmTC_a2b77.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a2b77.vcxproj -> C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-w45pki\\Debug\\cmTC_a2b77.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a2b77.dir\\Debug\\cmTC_a2b77.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a2b77.dir\\Debug\\cmTC_a2b77.tlog\\cmTC_a2b77.lastbuildstate".
+        Сборка проекта "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-w45pki\\cmTC_a2b77.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.32.31329.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-7tbxr3"
+      binary: "C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-7tbxr3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-7tbxr3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26ac4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine версии 17.2.1+52cd2da31 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.10.2025 11:03:54.
+        Проект "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-7tbxr3\\cmTC_26ac4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_26ac4.dir\\Debug\\".
+          Создание каталога "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-7tbxr3\\Debug\\".
+          Создание каталога "cmTC_26ac4.dir\\Debug\\cmTC_26ac4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_26ac4.dir\\Debug\\cmTC_26ac4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_26ac4.dir\\Debug\\\\" /Fd"cmTC_26ac4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.32.31329 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_26ac4.dir\\Debug\\\\" /Fd"cmTC_26ac4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-7tbxr3\\Debug\\cmTC_26ac4.exe" /INCREMENTAL /ILK:"cmTC_26ac4.dir\\Debug\\cmTC_26ac4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-7tbxr3/Debug/cmTC_26ac4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/cpp/Budjet tracker new build/Budjet-Tracker/build vs/CMakeFiles/CMakeScratch/TryCompile-7tbxr3/Debug/cmTC_26ac4.lib" /MACHINE:X64  /machine:x64 cmTC_26ac4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_26ac4.vcxproj -> C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-7tbxr3\\Debug\\cmTC_26ac4.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_26ac4.dir\\Debug\\cmTC_26ac4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_26ac4.dir\\Debug\\cmTC_26ac4.tlog\\cmTC_26ac4.lastbuildstate".
+        Сборка проекта "C:\\cpp\\Budjet tracker new build\\Budjet-Tracker\\build vs\\CMakeFiles\\CMakeScratch\\TryCompile-7tbxr3\\cmTC_26ac4.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.63
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.32.31329.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gtk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtk-3"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgtk-3.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gdk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk-3"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgdk-3.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_z"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libz.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gdi32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdi32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgdi32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_imm32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "imm32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libimm32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_shell32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "shell32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libshell32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_ole32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ole32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libole32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_uuid"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uuid"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libuuid.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_winmm"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winmm"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libwinmm.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_dwmapi"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dwmapi"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libdwmapi.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_setupapi"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "setupapi"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libsetupapi.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_cfgmgr32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cfgmgr32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libcfgmgr32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_hid"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "hid"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libhid.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_winspool"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winspool"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libwinspool.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_comctl32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "comctl32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libcomctl32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_comdlg32"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "comdlg32"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libcomdlg32.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_pangocairo-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pangocairo-1.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libpangocairo-1.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_pangowin32-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pangowin32-1.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libpangowin32-1.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_pango-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pango-1.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libpango-1.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_cairo-gobject"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo-gobject"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libcairo-gobject.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_cairo"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libcairo.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_harfbuzz"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "harfbuzz"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libharfbuzz.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gdk_pixbuf-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk_pixbuf-2.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgdk_pixbuf-2.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_atk-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "atk-1.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libatk-1.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gio-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gio-2.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgio-2.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_gobject-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gobject-2.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libgobject-2.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libglib-2.0.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPkgConfig.cmake:867 (_pkg_check_modules_internal)"
+      - "CMakeLists.txt:16 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK3_intl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "intl"
+    candidate_directories:
+      - "C:/msys64/mingw64/lib/"
+    found: "C:/msys64/mingw64/lib/libintl.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\shagm\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310\\Scripts"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Python\\Python310"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\atom\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\shagm\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\shagm\\.dotnet\\tools"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/BudgetTracker"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/BudgetTracker/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+...

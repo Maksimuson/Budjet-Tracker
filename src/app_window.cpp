@@ -12,7 +12,7 @@
 AppWindow::AppWindow() {
     window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(window), "Budjet Tracker");
-    gtk_window_set_default_size(GTK_WINDOW(window), 600, 800);
+    gtk_window_set_default_size(GTK_WINDOW(window), 600, 600);
     g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
     GtkWidget* vbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 5);
@@ -59,7 +59,7 @@ void AppWindow::create_table() {
 void AppWindow::update_summary() {
     // g_strdup_printf works like sprintf, but returns gchar*
     gchar* text = g_strdup_printf(
-        u8"Balance: %.2f | Income: %.2f | Expenses:: %.2f",
+        u8"Balance: %.2f | Income: %.2f | Expenses: %.2f",
         static_cast<double>(model.balance()),
         static_cast<double>(model.totalIncome()),
         static_cast<double>(model.totalExpense())

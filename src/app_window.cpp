@@ -35,17 +35,14 @@ AppWindow::AppWindow() {
     GtkWidget* left_panel = gtk_box_new(GTK_ORIENTATION_VERTICAL, 10);
     gtk_box_pack_start(GTK_BOX(main_hbox), left_panel, TRUE, TRUE, 0);
 
-    create_toolbar();
-    gtk_box_pack_start(GTK_BOX(left_panel), toolbar, FALSE, FALSE, 0);
+    // create_toolbar();
+    // gtk_box_pack_start(GTK_BOX(left_panel), toolbar, FALSE, FALSE, 0);
 
     GtkWidget* input_section = create_input_section();
     gtk_box_pack_start(GTK_BOX(left_panel), input_section, FALSE, FALSE, 0);
 
     create_table();
     gtk_box_pack_start(GTK_BOX(left_panel), treeview, TRUE, TRUE, 0);
-
-    balance_label = gtk_label_new("Остаток: 0.00");
-    gtk_box_pack_end(GTK_BOX(left_panel), balance_label, FALSE, FALSE, 0);
 
     // Правая панель с диаграммой
     GtkWidget* chart_section = create_chart_section();
@@ -122,27 +119,35 @@ GtkWidget* AppWindow::create_input_section() {
 
     gtk_box_pack_start(GTK_BOX(vbox), expenses_frame, FALSE, FALSE, 0);
 
-    // Кнопка обновления
-    GtkWidget* update_button = gtk_button_new_with_label("Обновить расчеты");
-    gtk_box_pack_start(GTK_BOX(vbox), update_button, FALSE, FALSE, 0);
-    g_signal_connect(update_button, "clicked", G_CALLBACK(on_update_all), this);
+    // Поле для отображения остатка
+    std::cout << "Создаем поле остатка..." << std::endl;
+    GtkWidget* balance_frame = gtk_frame_new("Остаток");
+    balance_label = gtk_label_new("0.00");
+    std::cout << "balance_label создан: " << balance_label << std::endl;
+    
+    // Устанавливаем больший размер шрифта для остатка
+    PangoAttrList *attrs = pango_attr_list_new();
+    PangoAttribute *attr = pango_attr_scale_new(2.0);  // Увеличиваем размер в 2 раза
+    pango_attr_list_insert(attrs, attr);
+    gtk_label_set_attributes(GTK_LABEL(balance_label), attrs);
+    pango_attr_list_unref(attrs);
+    
+    gtk_container_add(GTK_CONTAINER(balance_frame), balance_label);
+    gtk_box_pack_start(GTK_BOX(vbox), balance_frame, FALSE, FALSE, 10);
+    std::cout << "Поле остатка добавлено в интерфейс" << std::endl;
 
     // Подключение обработчиков событий
     if (salary_entry) {
         g_signal_connect(salary_entry, "activate", G_CALLBACK(on_salary_changed), this);
-        g_signal_connect(salary_entry, "focus-out-event", G_CALLBACK(on_salary_changed), this);
     }
     if (food_entry) {
         g_signal_connect(food_entry, "activate", G_CALLBACK(on_expense_changed), this);
-        g_signal_connect(food_entry, "focus-out-event", G_CALLBACK(on_expense_changed), this);
     }
     if (fun_entry) {
         g_signal_connect(fun_entry, "activate", G_CALLBACK(on_expense_changed), this);
-        g_signal_connect(fun_entry, "focus-out-event", G_CALLBACK(on_expense_changed), this);
     }
     if (clothes_entry) {
         g_signal_connect(clothes_entry, "activate", G_CALLBACK(on_expense_changed), this);
-        g_signal_connect(clothes_entry, "focus-out-event", G_CALLBACK(on_expense_changed), this);
     }
 
     return frame;
@@ -162,32 +167,44 @@ GtkWidget* AppWindow::create_chart_section() {
 
 
 void AppWindow::update_summary() {
-    // Обновляем основной баланс
-    if (summary_label) {
-        gchar* text = g_strdup_printf(
-            u8"Balance: %.2f | Income: %.2f | Expenses: %.2f",
-            static_cast<double>(model.balance()),
-            static_cast<double>(model.totalIncome()),
-            static_cast<double>(model.totalExpense())
-        );
-        gtk_label_set_text(GTK_LABEL(summary_label), text);
-        g_free(text);
-    }
-
+    std::cout << "========== update_summary вызван ==========" << std::endl;
+    std::cout << "Доход: " << model.totalIncome() << ", Расход: " << model.totalExpense() << ", Баланс: " << model.balance() << std::endl;
+    std::cout << "balance_label адрес: " << balance_label << std::endl;
+    
     // Обновляем отображение остатка
     if (balance_label) {
-        gchar* balance_text = g_strdup_printf("Остаток: %.2f", model.balance());
+        double balance = model.balance();
+        std::cout << "Создаем текст для остатка: " << balance << std::endl;
+        gchar* balance_text = g_strdup_printf("%.2f", balance);
+        std::cout << "Текст создан: " << balance_text << std::endl;
+        std::cout << "Устанавливаем текст в label..." << std::endl;
         gtk_label_set_text(GTK_LABEL(balance_label), balance_text);
+        std::cout << "Текст установлен!" << std::endl;
         g_free(balance_text);
+        std::cout << "Остаток обновлен: " << balance << std::endl;
+    } else {
+        std::cout << "ОШИБКА: balance_label == NULL!" << std::endl;
     }
 
     // Обновляем диаграмму
+    std::cout << "Вызываем update_chart..." << std::endl;
     update_chart();
+    std::cout << "========== update_summary завершен ==========" << std::endl;
 }
 
 void AppWindow::update_chart() {
-    if (chart_drawing_area && GTK_IS_DRAWING_AREA(chart_drawing_area)) {
-        gtk_widget_queue_draw(chart_drawing_area);
+    std::cout << "update_chart начало" << std::endl;
+    if (chart_drawing_area) {
+        std::cout << "chart_drawing_area существует" << std::endl;
+        if (GTK_IS_DRAWING_AREA(chart_drawing_area)) {
+            std::cout << "chart_drawing_area это GTK_DRAWING_AREA" << std::endl;
+            gtk_widget_queue_draw(chart_drawing_area);
+            std::cout << "gtk_widget_queue_draw выполнен" << std::endl;
+        } else {
+            std::cout << "chart_drawing_area НЕ является GTK_DRAWING_AREA" << std::endl;
+        }
+    } else {
+        std::cout << "chart_drawing_area == NULL" << std::endl;
     }
 }
 
@@ -224,7 +241,16 @@ void AppWindow::on_salary_changed(GtkWidget* widget, gpointer data) {
     const gchar* text = gtk_entry_get_text(GTK_ENTRY(widget));
     if (!text) return;
     
-    // Проверяем, что текст не пустой и содержит только цифры и точку
+    std::cout << "Зарплата изменена: " << text << std::endl;
+    
+    // Удаляем старые записи о зарплате
+    self->model.operations.erase(
+        std::remove_if(self->model.operations.begin(), self->model.operations.end(),
+            [](const Operation& op) { return op.category == "Salary"; }),
+        self->model.operations.end()
+    );
+    
+    // Если текст не пустой, добавляем новую запись
     if (strlen(text) > 0) {
         // Простая проверка на валидность числа
         bool is_valid = true;
@@ -238,20 +264,16 @@ void AppWindow::on_salary_changed(GtkWidget* widget, gpointer data) {
         if (is_valid) {
             double amount = atof(text);
             if (amount > 0) {
-                // Удаляем старые записи о зарплате
-                self->model.operations.erase(
-                    std::remove_if(self->model.operations.begin(), self->model.operations.end(),
-                        [](const Operation& op) { return op.category == "Salary"; }),
-                    self->model.operations.end()
-                );
-                
                 // Добавляем новую запись о зарплате
                 Operation op = { "2025-01-01", amount, "Salary", "income", "Зарплата" };
                 self->model.addOperation(op);
-                self->update_summary();
+                std::cout << "Зарплата добавлена: " << amount << std::endl;
             }
         }
     }
+    
+    std::cout << "Баланс: " << self->model.balance() << " (Доход: " << self->model.totalIncome() << ", Расход: " << self->model.totalExpense() << ")" << std::endl;
+    self->update_summary();
 }
 
 void AppWindow::on_expense_changed(GtkWidget* widget, gpointer data) {
@@ -261,7 +283,23 @@ void AppWindow::on_expense_changed(GtkWidget* widget, gpointer data) {
     const gchar* text = gtk_entry_get_text(GTK_ENTRY(widget));
     if (!text) return;
     
-    // Проверяем, что текст не пустой и содержит только цифры и точку
+    // Определяем категорию по виджету
+    std::string category;
+    if (widget == self->food_entry) category = "Food";
+    else if (widget == self->fun_entry) category = "Fun";
+    else if (widget == self->clothes_entry) category = "Clothes";
+    else return; // Неизвестная категория
+    
+    std::cout << "Расход " << category << " изменен: " << text << std::endl;
+    
+    // Удаляем старые записи этой категории
+    self->model.operations.erase(
+        std::remove_if(self->model.operations.begin(), self->model.operations.end(),
+            [&category](const Operation& op) { return op.category == category; }),
+        self->model.operations.end()
+    );
+    
+    // Если текст не пустой, добавляем новую запись
     if (strlen(text) > 0) {
         // Простая проверка на валидность числа
         bool is_valid = true;
@@ -275,37 +313,32 @@ void AppWindow::on_expense_changed(GtkWidget* widget, gpointer data) {
         if (is_valid) {
             double amount = atof(text);
             if (amount > 0) {
-                // Определяем категорию по виджету
-                std::string category;
-                if (widget == self->food_entry) category = "Food";
-                else if (widget == self->fun_entry) category = "Fun";
-                else if (widget == self->clothes_entry) category = "Clothes";
-                else return; // Неизвестная категория
-                
-                // Удаляем старые записи этой категории
-                self->model.operations.erase(
-                    std::remove_if(self->model.operations.begin(), self->model.operations.end(),
-                        [&category](const Operation& op) { return op.category == category; }),
-                    self->model.operations.end()
-                );
-                
                 // Добавляем новую запись
                 Operation op = { "2025-01-01", amount, category, "expense", "Расход" };
                 self->model.addOperation(op);
-                self->update_summary();
+                std::cout << category << " добавлен: " << amount << std::endl;
             }
         }
     }
+    
+    std::cout << "Баланс: " << self->model.balance() << " (Доход: " << self->model.totalIncome() << ", Расход: " << self->model.totalExpense() << ")" << std::endl;
+    self->update_summary();
 }
 
 gboolean AppWindow::on_draw_chart(GtkWidget* widget, cairo_t* cr, gpointer data) {
+    std::cout << "on_draw_chart вызван" << std::endl;
     AppWindow* self = (AppWindow*)data;
-    if (!self || !widget || !cr) return FALSE;
+    if (!self || !widget || !cr) {
+        std::cout << "on_draw_chart: NULL параметр" << std::endl;
+        return FALSE;
+    }
     
+    std::cout << "on_draw_chart: получаем размеры" << std::endl;
     // Получаем размеры области рисования
     int width = gtk_widget_get_allocated_width(widget);
     int height = gtk_widget_get_allocated_height(widget);
     
+    std::cout << "on_draw_chart: width=" << width << ", height=" << height << std::endl;
     if (width <= 0 || height <= 0) return FALSE;
     
     // Очищаем фон
@@ -325,13 +358,16 @@ gboolean AppWindow::on_draw_chart(GtkWidget* widget, cairo_t* cr, gpointer data)
     
     double total = food_amount + fun_amount + clothes_amount;
     
+    std::cout << "on_draw_chart: total=" << total << std::endl;
     if (total == 0) {
         // Если нет расходов, показываем сообщение
+        std::cout << "on_draw_chart: нет расходов, рисуем сообщение" << std::endl;
         cairo_set_source_rgb(cr, 0.5, 0.5, 0.5);
         cairo_select_font_face(cr, "Arial", CAIRO_FONT_SLANT_NORMAL, CAIRO_FONT_WEIGHT_NORMAL);
         cairo_set_font_size(cr, 16);
         cairo_move_to(cr, width/2 - 50, height/2);
-        cairo_show_text(cr, "Нет данных");
+        cairo_show_text(cr, "No data");
+        std::cout << "on_draw_chart: сообщение нарисовано" << std::endl;
         return TRUE;
     }
     
@@ -413,12 +449,18 @@ gboolean AppWindow::on_draw_chart(GtkWidget* widget, cairo_t* cr, gpointer data)
 }
 
 void AppWindow::on_update_all(GtkWidget* widget, gpointer data) {
+    std::cout << "on_update_all вызван" << std::endl;
     AppWindow* self = (AppWindow*)data;
-    if (!self) return;
+    if (!self) {
+        std::cout << "ОШИБКА: self == NULL" << std::endl;
+        return;
+    }
     
+    std::cout << "Очищаем операции..." << std::endl;
     // Очищаем все старые операции
     self->model.operations.clear();
     
+    std::cout << "Обрабатываем зарплату..." << std::endl;
     // Обрабатываем зарплату
     if (self->salary_entry) {
         const gchar* text = gtk_entry_get_text(GTK_ENTRY(self->salary_entry));
@@ -468,5 +510,7 @@ void AppWindow::on_update_all(GtkWidget* widget, gpointer data) {
         }
     }
     
+    std::cout << "Вызываем update_summary из on_update_all..." << std::endl;
     self->update_summary();
+    std::cout << "on_update_all завершен успешно" << std::endl;
 }
